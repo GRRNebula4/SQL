@@ -123,3 +123,10 @@ INSERT INTO review (movie_id, viewer_id, score) VALUES (1, 2, 10);
 
 INSERT INTO movie (id, title, publish_year), VALUES (2, 'The wild Robot', 2024);
 
+
+SELECT * from movie;
+SELECT * from actor
+WHERE movie_id 1;
+SELECT * from person
+WHERE primary_picture 1;
+
